@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as n}from"./app-ZRtbln_V.js";const o={};function c(a,r){return n(),t("div")}const s=e(o,[["render",c],["__file","component.html.vue"]]),_=JSON.parse('{"path":"/component.html","title":"","lang":"en-US","frontmatter":{},"headers":[],"git":{},"filePathRelative":"component.md"}');export{s as comp,_ as data};
