@@ -2,9 +2,11 @@ export const redirects = JSON.parse("{}")
 
 export const routes = Object.fromEntries([
   ["/", { loader: () => import(/* webpackChunkName: "index.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/index.html.js"), meta: {"title":"Introduction"} }],
-  ["/component.html", { loader: () => import(/* webpackChunkName: "component.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/component.html.js"), meta: {"title":""} }],
-  ["/installation.html", { loader: () => import(/* webpackChunkName: "installation.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/installation.html.js"), meta: {"title":""} }],
-  ["/introduction.html", { loader: () => import(/* webpackChunkName: "introduction.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/introduction.html.js"), meta: {"title":"Get Started"} }],
+  ["/installation.html", { loader: () => import(/* webpackChunkName: "installation.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/installation.html.js"), meta: {"title":"Installation"} }],
+  ["/page.html", { loader: () => import(/* webpackChunkName: "page.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/page.html.js"), meta: {"title":"Page"} }],
+  ["/partial.html", { loader: () => import(/* webpackChunkName: "partial.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/partial.html.js"), meta: {"title":""} }],
+  ["/properties.html", { loader: () => import(/* webpackChunkName: "properties.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/properties.html.js"), meta: {"title":""} }],
+  ["/property.html", { loader: () => import(/* webpackChunkName: "property.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/property.html.js"), meta: {"title":"Page"} }],
   ["/404.html", { loader: () => import(/* webpackChunkName: "404.html" */"/Users/ellite/code/explore/keera/packages/leptonjs-docs/docs/.vuepress/.temp/pages/404.html.js"), meta: {"title":""} }],
 ]);
 

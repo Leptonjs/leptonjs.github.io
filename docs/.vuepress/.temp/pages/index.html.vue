@@ -1,5 +1,5 @@
-<template><div><div class="hint-container warning">
-<p class="hint-container-title">Warning</p>
+<template><div><div class="hint-container caution">
+<p class="hint-container-title">Caution</p>
 <p>LeptonJs is still in its early development stage, so use it with caution.</p>
 </div>
 <h1 id="leptonjs" tabindex="-1"><a class="header-anchor" href="#leptonjs"><span>LeptonJs</span></a></h1>

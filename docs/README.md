@@ -4,7 +4,7 @@ title: Introduction
 description: Introduction to LeptonJs
 ---
 
-::: warning
+::: danger
 LeptonJs is still in its early development stage, so use it with caution.
 :::
 

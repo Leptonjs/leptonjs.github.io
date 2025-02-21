@@ -10,7 +10,7 @@ export default defineUserConfig({
     description: "My first VuePress Site",
 
     theme: defaultTheme({
-        navbar: ["/", "/introduction"],
+        navbar: ["/"],
 
         sidebar:[
             {
@@ -22,8 +22,12 @@ export default defineUserConfig({
                 link: '/installation',
             },
             {
-                text: 'Component',
-                link: '/component',
+                text: 'Page',
+                link: '/page',
+            },
+            {
+                text: 'Partial',
+                link: '/partial',
             }
         ]
     }),
